@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1: "montserrat";
+    --cor1: #ffff;
+
+}
+
+body{
+
+    background-image:url(../IMG/bg\ \(2\).png);
+    height: 100vh;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x:hidden; */
+
+
+}
+
+.teste{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.containertotal{
+
+    display: flex;
+    margin-top: 200px;
+    width: 300px;
+    height: 300px;
+    background-color: var(--cor1);
+    border-radius: 20%;
+    text-align: center;
+
+} 
+
+h1{
+    font-family:var(--font1);
+    font-weight: 900 ;
+    width: 300PX;
+    
+}
